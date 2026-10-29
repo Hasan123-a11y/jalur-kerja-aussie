@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jalur Kerja Aussie: persiapan cari kerja di Australia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#11213B;--muted:#55657D;--line:#E3E9F2;--ocean:#1763E6;--ocean-s:#EAF1FE;--wattle:#FFC83D;--wattle-s:#FFF6DB;--eu:#1E8E6E;--eu-s:#E6F5EF;--coral:#D9462F;--coral-s:#FDEDEA;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:#fff;color:var(--ink);font:400 16px/1.65 "Plus Jakarta Sans",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#fff;z-index:30}
+h1,h2,h3{font-family:"Bricolage Grotesque","Plus Jakarta Sans",system-ui,sans-serif;line-height:1.1;margin:0;letter-spacing:-.02em}
+h1{font-size:clamp(2.4rem,6vw,4.1rem);font-weight:800}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800}
+h3{font-size:1.15rem;font-weight:600;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--ocean)}
+:focus-visible{outline:3px solid var(--ocean);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.view{display:none;padding-top:44px}.view.on{display:block}nav a[aria-current=page],nav a[aria-current=page]:hover{background:var(--ink);color:#fff}
+.menu{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.step{display:flex;flex-direction:column;gap:6px;border:1.5px solid var(--line);border-radius:20px;padding:20px;text-decoration:none;color:var(--ink)}.step:hover{border-color:var(--ocean)}.step .n{width:30px;height:30px;border-radius:50%;background:var(--wattle);display:grid;place-items:center;font-weight:700;font-size:.9rem}.step b{font:600 1.05rem "Bricolage Grotesque",sans-serif}.step span:last-child{color:var(--muted);font-size:.9rem}.pager{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:56px}
+@media(max-width:900px){.menu{grid-template-columns:1fr 1fr}}@media(max-width:620px){.menu{grid-template-columns:1fr}}
+section{padding:76px 0 0}
+.lead{color:var(--muted);max-width:60ch;margin-top:14px;font-size:1.05rem}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:1.2rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:10px}
+.dot{width:26px;height:26px;border-radius:50% 50% 50% 8px;background:var(--wattle);display:inline-block}
+nav{display:flex;gap:6px}
+nav a{color:var(--muted);text-decoration:none;font-weight:500;font-size:.93rem;padding:8px 12px;border-radius:99px}
+nav a:hover{background:var(--ocean-s);color:var(--ocean)}
+.hero{padding-top:12px;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
+.hero .lead{font-size:1.15rem}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{font:600 .98rem "Plus Jakarta Sans",sans-serif;border:0;border-radius:14px;padding:14px 22px;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.p{background:var(--ocean);color:#fff}.btn.p:hover{background:#0F4FC2}
+.btn.g{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}.btn.g:hover{box-shadow:inset 0 0 0 1.5px var(--ocean);color:var(--ocean)}
+.meter{position:relative;background:#fff;border:1.5px solid var(--line);border-radius:28px 28px 28px 6px;padding:28px;box-shadow:12px 12px 0 var(--wattle-s)}
+.ring{display:flex;align-items:center;gap:22px}
+.ring svg{width:120px;height:120px;flex:none;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:11;stroke-linecap:round}
+.ring .tr{stroke:var(--ocean-s)}.ring .pg{stroke:var(--ocean);stroke-dasharray:276.46;stroke-dashoffset:276.46;transition:stroke-dashoffset .5s ease}
+.pct{font:800 2.6rem "Bricolage Grotesque",sans-serif;line-height:1}
+.next{margin-top:22px;padding:14px 16px;border-radius:14px;background:var(--eu-s);font-size:.95rem}
+.next b{display:block;font-weight:600;color:var(--eu)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:34px}
+.box{border:1.5px solid var(--line);border-radius:22px;padding:24px}
+.box h3{margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.chk{display:flex;gap:12px;align-items:flex-start;padding:10px 8px;border-radius:12px;cursor:pointer}
+.chk:hover{background:#F6F9FE}
+.chk input{appearance:none;flex:none;width:22px;height:22px;margin:2px 0 0;border:2px solid #B9C6DA;border-radius:7px;cursor:pointer;display:grid;place-items:center;background:#fff}
+.chk input:checked{background:var(--ocean);border-color:var(--ocean)}
+.chk input:checked::after{content:"";width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.chk input:checked+span{color:#8794A8;text-decoration:line-through}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0 6px}
+.chip{font:500 .92rem "Plus Jakarta Sans",sans-serif;border:1.5px solid var(--line);background:#fff;color:var(--ink);padding:8px 16px;border-radius:99px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px}
+.card{border:1.5px solid var(--line);border-radius:20px;padding:22px;display:flex;flex-direction:column;gap:10px}
+.card p{color:var(--muted);font-size:.95rem}
+.tag{align-self:flex-start;font-size:.8rem;font-weight:600;padding:3px 11px;border-radius:99px}
+.t-o{background:var(--ocean-s);color:var(--ocean)}.t-l{background:var(--wattle-s);color:#8A5F00}.t-k{background:var(--eu-s);color:var(--eu)}.t-a{background:#F1EBFB;color:#6A3FB0}
+.card ul{margin:0;padding-left:18px;color:var(--muted);font-size:.92rem}
+.lk{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:6px}.lk a{font-size:.88rem;font-weight:600;text-decoration:none;color:var(--ocean);background:var(--ocean-s);padding:6px 14px;border-radius:99px}.lk a:hover{background:var(--ocean);color:#fff}
+.trow{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;border:1.5px solid var(--line);border-radius:16px;padding:14px 16px;margin-bottom:10px}.trow small{display:block;color:var(--muted)}.trow select{font:500 .9rem "Plus Jakarta Sans",sans-serif;border:1.5px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}.trow .x{border:0;background:none;color:var(--coral);font:600 .85rem "Plus Jakarta Sans",sans-serif;cursor:pointer;padding:8px}.fu{display:inline-block;background:var(--wattle-s);color:#8A5F00;font-size:.78rem;font-weight:600;padding:2px 10px;border-radius:99px;margin-left:8px}.tbar{height:12px;background:var(--ocean-s);border-radius:99px;overflow:hidden;margin-top:12px}.tbar i{display:block;height:100%;background:var(--ocean);width:0;transition:width .4s}@media(max-width:620px){.trow{grid-template-columns:1fr}}
+.exp{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:26px}
+.exp div{background:var(--eu-s);border-radius:16px;padding:16px}
+.exp b{display:block;font-weight:600;font-size:.95rem;margin-bottom:4px}
+.exp span{color:var(--muted);font-size:.86rem}
+.kw{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 0}
+.kw span{background:var(--wattle);padding:8px 16px;border-radius:12px;font-weight:600}
+.tpl{background:#F7F9FC;border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:14px}
+.tpl pre{margin:0;white-space:pre-wrap;font:400 .92rem/1.6 "Plus Jakarta Sans",sans-serif;color:var(--ink)}
+.tpl .btn{align-self:flex-start;padding:10px 18px;font-size:.9rem}
+.fld{display:grid;gap:6px;font-weight:500;font-size:.9rem;margin-bottom:14px}.fld input{font:400 .95rem "Plus Jakarta Sans",sans-serif;padding:11px 13px;border:1.5px solid var(--line);border-radius:12px;color:var(--ink);width:100%;background:#fff}.fld input:focus{border-color:var(--ocean)}.fld textarea,.fld select{font:400 .95rem "Plus Jakarta Sans",sans-serif;padding:11px 13px;border:1.5px solid var(--line);border-radius:12px;color:var(--ink);width:100%;background:#fff;resize:vertical}.fld textarea:focus,.fld select:focus{border-color:var(--ocean)}.cs .chk input:checked+span{color:inherit;text-decoration:none}.paper{background:#fff;border:1.5px solid var(--line);border-radius:6px;padding:28px;font-size:.88rem;line-height:1.5;box-shadow:8px 8px 0 var(--wattle-s);overflow-wrap:anywhere}.paper .nm{font:800 1.6rem "Bricolage Grotesque",sans-serif;line-height:1.15}.paper .ct{color:var(--muted);font-size:.84rem}.paper h4{margin:16px 0 6px;font:600 .95rem "Bricolage Grotesque",sans-serif;border-bottom:1px solid var(--line);padding-bottom:3px}.paper p{margin:4px 0}.paper ul{margin:2px 0 8px;padding-left:18px}@media(min-width:901px){.cvs{position:sticky;top:84px;align-self:start}}.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}@media(max-width:620px){.fgrid{grid-template-columns:1fr}}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.facts div{border-left:5px solid var(--ocean);padding:4px 0 4px 18px}
+.facts b{display:block;font:800 1.5rem "Bricolage Grotesque",sans-serif}
+.facts span{color:var(--muted);font-size:.93rem}
+.note{margin-top:20px;background:var(--wattle-s);border-radius:16px;padding:16px 20px;font-size:.95rem}
+.warn{background:var(--coral-s);border-radius:24px;padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.warn h2{color:var(--coral);font-size:clamp(1.6rem,3.4vw,2.2rem)}
+.warn ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.warn li{padding-left:30px;position:relative}
+.warn li::before{content:"!";position:absolute;left:0;top:2px;width:20px;height:20px;border-radius:50%;background:var(--coral);color:#fff;font-weight:700;font-size:.8rem;display:grid;place-items:center}
+.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.vids a{border:1.5px solid var(--line);border-radius:16px;padding:16px 18px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+.vids a:hover{border-color:var(--ocean);color:var(--ocean)}
+.vids small{display:block;font-weight:400;color:var(--muted);margin-top:2px}
+footer{margin-top:80px;border-top:1px solid var(--line);padding:30px 0 40px;color:var(--muted);font-size:.9rem}
+@media(max-width:900px){.hero,.cols,.warn{grid-template-columns:1fr}.grid,.facts,.vids{grid-template-columns:1fr 1fr}.exp{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.bar{height:auto;padding:10px 0 6px;flex-wrap:wrap;gap:4px}nav{width:100%;overflow-x:auto;padding-bottom:6px}nav a{white-space:nowrap}.grid,.facts,.vids,.exp{grid-template-columns:1fr}.meter{box-shadow:8px 8px 0 var(--wattle-s)}section{padding-top:60px}.warn{padding:24px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="brand" href="#beranda"><span class="dot"></span>Jalur Kerja Aussie</a>
+<nav aria-label="Navigasi utama"><a href="#beranda">Beranda</a><a href="#checklist">Checklist</a><a href="#cv">CV</a><a href="#pesan">Pesan lamaran</a><a href="#cara">Cara melamar</a><a href="#pelacak">Pelacak lamaran</a><a href="#info">Info penting</a></nav>
+</div></header>
+
+<main class="wrap" id="atas">
+<section class="view" data-view="beranda">
+<div class="hero">
+<div>
+<h1>Cara cari kerja di Aussie dengan visa WHV</h1>
+<p class="lead">Panduan untuk pemegang Working Holiday Visa: apa yang disiapkan, ke mana melamar, dan bagaimana menjaga ekspektasi tetap realistis. Dirangkum dari pengalaman nyata WNI di Australia.</p>
+<div class="cta"><a class="btn p" href="#checklist">Mulai checklist</a><a class="btn g" href="#cara">Lihat 13 cara melamar</a></div>
+</div>
+<aside class="meter" aria-label="Progres kesiapan">
+<div class="ring">
+<svg viewBox="0 0 100 100" aria-hidden="true"><circle class="tr" cx="50" cy="50" r="44"/><circle class="pg" id="pg" cx="50" cy="50" r="44"/></svg>
+<div><div class="pct" id="pct">0%</div><p style="color:var(--muted)" id="cnt">0 dari 0 langkah selesai</p></div>
+</div>
+<div class="next" id="next"></div>
+</aside>
+</div>
+<h2 style="margin-top:64px">Mau mulai dari mana?</h2>
+<p class="lead">Ikuti urutan ini, satu langkah per halaman.</p>
+<div class="menu">
+<a class="step" href="#checklist"><span class="n">1</span><b>Checklist kesiapan</b><span>Visa, bank, TFN, nomor telepon, grup komunitas</span></a>
+<a class="step" href="#cv"><span class="n">2</span><b>CV</b><span>Panduan isi CV dan buat CV PDF sendiri</span></a>
+<a class="step" href="#pesan"><span class="n">3</span><b>Pesan lamaran</b><span>Buat email, DM, atau SMS sekali isi</span></a>
+<a class="step" href="#cara"><span class="n">4</span><b>Cara melamar</b><span>13 jalur: aplikasi, door to door, komunitas, agensi</span></a>
+<a class="step" href="#pelacak"><span class="n">5</span><b>Pelacak lamaran</b><span>Catat tiap lamaran, status, dan pengingat tindak lanjut</span></a>
+<a class="step" href="#info"><span class="n">6</span><b>Info penting</b><span>Ekspektasi gaji dan waktu, waspada penipuan</span></a>
+</div>
+</section>
+
+<section class="view" data-view="checklist">
+<h2>Checklist kesiapan</h2>
+<p class="lead">Centang yang sudah beres. Progresmu tersimpan di browser ini. Para pembuat panduan menyarankan mulai melamar setelah visa granted, punya rekening bank, TFN, dan nomor telepon Australia, karena perusahaan biasanya menghubungi lewat SMS atau telepon.</p>
+<div class="cols">
+<div class="box"><h3>Sebelum berangkat</h3><div id="l1"></div></div>
+<div class="box"><h3>Setelah tiba di Australia</h3><div id="l2"></div></div>
+</div>
+</section>
+
+<section class="view" data-view="cara">
+<h2>Cara melamar kerja</h2>
+<p class="lead">Jangan hanya mengandalkan satu cara. Gabungkan beberapa jalur sekaligus dan ulangi secara berkala.</p>
+<div class="chips" role="group" aria-label="Filter cara melamar" id="chips"></div>
+<div class="grid" id="grid"></div>
+<div class="note">Working Holiday Visa hanya izin tinggal dan bekerja. Pekerjaannya tetap harus kamu cari sendiri, dan jenisnya harus sesuai ketentuan visa.</div>
+</section>
+
+<section class='view' data-view='pelacak'>
+<h2>Pelacak lamaran</h2>
+<p class='lead'>Catat setiap lamaran supaya tidak ada yang terlewat. Target dari pamflet: minimal 20 perusahaan, lalu ulangi lamaran seminggu sekali atau tiga hari sekali. Data tersimpan di browser ini.</p>
+<div class='box' style='margin-top:26px'><p><b id='tn' style='font:800 1.8rem "Bricolage Grotesque",sans-serif'>0</b> dari 20 lamaran target</p><div class='tbar'><i id='tb'></i></div><p id='ts' style='color:var(--muted);font-size:.92rem;margin-top:10px'></p></div>
+<div class='box' style='margin-top:18px'><h3>Tambah lamaran</h3>
+<div class='fgrid'>
+<label class='fld'>Perusahaan atau tempat<input id='t-co'></label>
+<label class='fld'>Posisi<input id='t-role'></label>
+<label class='fld'>Jalur<select id='t-via'><option>SEEK</option><option>Jora</option><option>Gumtree</option><option>Email</option><option>Website perusahaan</option><option>Door to door</option><option>Telepon atau SMS</option><option>Facebook</option><option>Telegram</option><option>Instagram</option><option>Agensi</option><option>Lainnya</option></select></label>
+<label class='fld'>Tanggal melamar<input id='t-date' type='date'></label>
+</div>
+<label class='fld'>Catatan (opsional)<input id='t-note' placeholder='Kontak, lokasi, jarak, dll.'></label>
+<button class='btn p' id='t-add'>Tambah lamaran</button></div>
+<div id='tlist' style='margin-top:22px'></div>
+</section>
+
+<section class="view" data-view="cv">
+<h2>CV untuk kerja fisik</h2>
+<p class="lead">Pengalaman kantoran biasanya kurang relevan untuk pekerjaan fisik. Tonjolkan pengalaman manual handling, dan jangan biarkan CV kosong. Tulis yang pernah kamu lakukan, walau hanya 3 hari. Pengalaman membantu teman atau keluarga juga boleh, asalkan nyata dan jujur.</p>
+<div class="exp">
+<div><b>Helper gudang</b><span>Pindah, packing, sortir, angkat barang</span></div>
+<div><b>Pekerja kebun / farm</b><span>Petik buah, bantu panen</span></div>
+<div><b>Kitchen hand</b><span>Cuci piring, bersih-bersih</span></div>
+<div><b>General labourer</b><span>Bantu material, bersihkan area</span></div>
+<div><b>Kafe / customer service</b><span>Layani pelanggan, bantu kasir</span></div>
+</div>
+<div class="cols">
+<div><h3>Tiga kata kunci di profil</h3><div class="kw"><span>Hard working</span><span>Fast learner</span><span>Strong team effort</span></div></div>
+<div><h3>Yang dicari meat factory dan warehouse</h3><p class="lead" style="margin-top:8px">Fisik kuat, mampu mengangkat 10–25 kg, tahan berdiri atau duduk lama, dan tahan suhu dingin. Siapkan dua CV: satu khusus kerja fisik, satu umum.</p></div>
+</div>
+<h2 style='margin-top:64px'>Buat CV-mu</h2>
+<p class='lead'>Isi data, lihat CV tersusun langsung, lalu unduh sebagai PDF. CV dibuat dalam bahasa Inggris karena itu yang dibaca employer di Australia. Isi hanya pengalaman yang benar-benar kamu lakukan.</p>
+<div class='cols'>
+<div class='box' id='cf'>
+<h3>Data diri</h3>
+<div class='fgrid'>
+<label class='fld'>Nama lengkap<input id='c-name' autocomplete='name'></label>
+<label class='fld'>Nomor HP<input id='c-phone' type='tel' autocomplete='tel'></label>
+<label class='fld'>Email<input id='c-email' type='email' autocomplete='email'></label>
+<label class='fld'>Kota atau suburb di Australia<input id='c-loc' placeholder='Sydney NSW'></label>
+<label class='fld'>Posisi yang dituju<input id='c-role' value='Process Worker'></label>
+<label class='fld'>Kemampuan bahasa Inggris<select id='c-en'><option>Basic</option><option>Conversational</option><option>Fluent</option></select></label>
+</div>
+<h3 style='margin:8px 0 10px'>Jenis CV</h3>
+<div class='chips' id='cvtype' role='group' aria-label='Jenis CV' style='margin:0 0 16px'></div>
+<div class='cs'><label class='chk'><input type='checkbox' id='c-visa' checked><span>Cantumkan Working Holiday visa dengan hak kerja penuh</span></label></div>
+<h3 style='margin:16px 0 6px'>Keahlian</h3>
+<p style='color:var(--muted);font-size:.9rem;margin-bottom:6px'>Centang hanya yang benar untukmu.</p>
+<div class='cs' id='cskills'></div>
+<label class='fld' style='margin-top:14px'>Ringkasan (kosongkan untuk otomatis)<textarea id='c-sum' rows='3'></textarea></label>
+<h3 style='margin:16px 0 10px'>Pengalaman</h3>
+<label class='fld'>Isi cepat dari contoh<select id='c-ex'></select></label>
+<div id='cexp'></div>
+</div>
+<div class='tpl cvs'><h3>Pratinjau CV</h3>
+<div class='paper' id='cvp'></div>
+<div style='display:flex;gap:10px;flex-wrap:wrap'><button class='btn p' id='c-dl'>Unduh PDF</button><button class='btn g' data-copy='cvt'>Salin teks</button></div>
+<pre id='cvt' hidden></pre>
+<p style='color:var(--muted);font-size:.9rem'>Ganti contoh dengan pengalamanmu sendiri. Jangan mengaku pengalaman yang tidak ada.</p></div>
+</div>
+</section>
+
+<section class="view" data-view="pesan">
+<h2>Generator template lamaran</h2>
+<p class='lead'>Isi datamu sekali, pilih jenis pesan, dan hasilnya langsung tersusun. Kolom yang kosong tampil sebagai [placeholder] yang bisa kamu isi nanti.</p>
+<div class='cols'>
+<div class='box' id='gf'><h3>Datamu</h3>
+<div class='fgrid'>
+<label class='fld'>Nama lengkap<input id='f-name' autocomplete='name'></label>
+<label class='fld'>Nomor HP<input id='f-phone' type='tel' autocomplete='tel'></label>
+<label class='fld'>Email<input id='f-email' type='email' autocomplete='email'></label>
+<label class='fld'>Nama perusahaan<input id='f-co'></label>
+<label class='fld'>Posisi yang dilamar<input id='f-role' value='Process Worker'></label>
+<label class='fld'>Nama penerima (opsional)<input id='f-mgr' placeholder='Hiring Manager'></label>
+</div>
+<label class='fld'>Pengalaman singkat (opsional, bahasa Inggris)<input id='f-exp' placeholder='3 days as a warehouse helper'></label></div>
+<div class='tpl'><div class='chips' id='gchips' role='group' aria-label='Jenis pesan' style='margin:0'></div>
+<pre id='out' aria-live='polite'></pre>
+<button class='btn p' data-copy='out'>Salin pesan</button>
+<p id='otip' style='color:var(--muted);font-size:.9rem'></p></div>
+</div>
+</section>
+
+<section class="view" data-view="info">
+<h2>Ekspektasi yang realistis</h2>
+<div class="facts">
+<div><b>Sekitar 2 minggu</b><span>Rata-rata waktu menganggur menurut Kak Adin. Ada yang diterima dalam hitungan hari, tetapi itu jarang.</span></div>
+<div><b>30–45 juta per bulan</b><span>Gambaran gaji WHV dengan satu pekerjaan. Double job bisa lebih tinggi, tetapi kurang tidur.</span></div>
+<div><b>Minimal 20 lamaran</b><span>Jangan berhenti di 5. Ulangi lamaran seminggu sekali atau tiga hari sekali.</span></div>
+</div>
+<div class="note">Angka di atas hanya gambaran, bukan jaminan. Hasilnya bergantung pada lokasi, musim, pengalaman, dan jenis pekerjaan. Riset perusahaan lebih dulu: cek lokasinya di Google, baca review, pastikan eligible untuk perpanjangan visa, dan tanya di grup komunitas.</div>
+</section>
+
+<section class="view" data-view="info">
+<div class="warn">
+<div><h2>Waspada penipuan</h2><p class="lead" style="color:var(--ink)">Pekerjaan instan hampir selalu terlalu bagus untuk jadi nyata.</p></div>
+<ul>
+<li>Jangan bayar biaya rekrutmen yang mencurigakan.</li>
+<li>Hindari agensi atau lowongan yang meminta bayaran di awal.</li>
+<li>Curigai janji kerja instan tanpa proses seleksi.</li>
+<li>Selalu pegang ponsel: panggilan interview dan feedback bisa datang lewat email atau telepon.</li>
+</ul>
+</div>
+</section>
+
+<section class="view" data-view="info">
+<h2>Tonton versi lengkapnya</h2>
+<p class="lead">Video dari para pembuat panduan, lengkap dengan pengalaman nyata dan contoh langsung.</p>
+<div class="vids">
+<a href="http://www.youtube.com/watch?v=huD-M1xz2LY" target="_blank" rel="noopener">Cara cepat &amp; tips dapat kerja<small>Pengalaman Kak Adin</small></a>
+<a href="https://www.youtube.com/watch?v=59DD9qY9Yr0" target="_blank" rel="noopener">Panduan cari kerja di Australia<small>Lima jalur melamar</small></a>
+<a href="https://www.youtube.com/watch?v=tpyxb6RcUUs" target="_blank" rel="noopener">Tips gampang diterima kerja<small>Sebelum berangkat &amp; setelah tiba</small></a>
+</div>
+</section>
+<div class="pager" id="pager"></div>
+</main>
+
+<footer><div class="wrap">Dirangkum dari pamflet karya Hasanal Ridwan dan slide pengalaman pribadi para pembuat konten WHV. Informasi bersifat panduan umum dan bisa berubah. Cek ketentuan visa dan hak kerjamu ke sumber resmi pemerintah Australia.</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+var L1=["Visa sudah granted dan hak kerja aktif sesuai status visa","Siapkan dokumen penting: paspor, visa, sertifikat","Buat CV khusus kerja fisik dan satu CV umum","Tulis pengalaman nyata di CV, walau hanya 3 hari","Latihan interview telepon dalam bahasa Inggris sederhana","Mulai riset perusahaan dan daftar lowongan dari Indonesia","Hubungi daftar teman seperjuangan yang akan berangkat atau sudah di Australia","Gabung grup Facebook (sesuai kota tujuan) dan grup Telegram"];
+var L2=["Buka rekening bank Australia","Urus TFN (Tax File Number)","Punya nomor telepon Australia","Pasang SEEK dan Jora, lengkapi profil dengan alamat Australia","Cetak CV untuk door to door","Kirim lamaran ke minimal 20 perusahaan","Daftar ke recruitment agency","Daftar aplikasi delivery makanan sebagai cadangan"];
+var M=[
+["o","SEEK, Jora, Gumtree","Aplikasi pencari kerja utama. SEEK banyak update setiap hari, dari yang dekat rumah sampai yang jauh. Untuk hospitality di kota besar, coba Jora dan SEEK.",["Cek setiap hari","Lengkapi profil dengan alamat Australia"],[["SEEK","https://www.seek.com.au"],["Jora","https://au.jora.com"],["Gumtree","https://www.gumtree.com.au"]]],
+["o","Airtasker","Aplikasi gig work untuk pekerjaan lepas atau panggilan.",["Cocok sebagai tambahan penghasilan"],[["Airtasker","https://www.airtasker.com"]]],
+["o","Website perusahaan","Buka situs resmi perusahaan, cari menu Careers atau Jobs, lalu isi formulir online. Contohnya McD Australia. Biasanya responsnya cepat.",["Lihat posisi dan kualifikasi dulu"]],
+["o","Email","Kirim lamaran dengan subjek “Process Worker” supaya mudah dikirim ke banyak perusahaan.",["Sapaan, semangat kerja, kualifikasi","Tutup dengan Warm/Best regards"]],
+["o","DM Instagram","Cari akun restoran, kafe, hotel, atau bisnis lokal. Kirim pesan singkat untuk menanyakan lowongan dan cara mengirim CV.",["Sopan dan profesional","Langsung ke intinya"]],
+["l","Door to door","Cetak CV dan datangi tempat usaha satu per satu. Tetap tanya walau tidak ada tulisan “We’re hiring”. Poster di depan toko kadang berisi barcode atau email HRD.",["Berpakaian rapi, ramah","Sekalian mengenal daerah sekitar"]],
+["l","Telepon atau SMS","Cari resto, toko, atau perusahaan di Google Maps, lalu langsung telepon atau kirim SMS.",["Berani, lugas, tidak bertele-tele"]],
+["k","Grup Facebook","Cari “Emerald job”, THE ROCK Indonesia (Sydney), The Rock Perth, atau Tasmania Backpackers. Lowongan dibagikan hampir setiap hari, kadang juga info tempat tinggal.",["Pilih grup sesuai kota tujuan","Aktif dan rajin cek"]],
+["k","Grup WhatsApp","Grup per kota, tetapi perlu relasi untuk bisa masuk dan anggotanya cepat berganti.",["Bangun relasi dari grup Facebook"]],
+["k","Grup Telegram","Komunitas pejuang WHV Australia untuk saling berbagi info dan lowongan. Gabung lewat <a href='https://t.me/pejuangwhvaustralia' target='_blank' rel='noopener'>t.me/pejuangwhvaustralia</a>.",["Aktif dan rajin cek info terbaru","Bertanya langsung ke sesama pemegang WHV"]],
+["k","Mulut ke mulut","Cara paling ampuh untuk kerjaan farm maupun hospitality, termasuk tempat kerja unik. Banyak lowongan yang tidak diposting di mana pun.",["Perbanyak teman dan relasi"]],
+["a","Agensi farm","Agri Labour Australia: pilih lokasi (QLD, NSW, WA, VIC, NT, SA, TAS, ACT). Cocok untuk kerja farm demi mengumpulkan payslip.",["Cek situs resminya langsung"],[["Agri Labour Australia","https://www.agrilabour.com.au"]]],
+["a","Recruitment agency","Menyalurkan pekerja ke logistik, warehouse, konstruksi, farm, dan hospitality. Dianggap cara paling efektif. Apply lewat website, email, atau telepon.",["Apply ke sebanyak mungkin agency","Tidak perlu bayar di awal"]],
+["a","Ojek makanan","Cadangan jika belum dapat kerja: UberEats, DoorDash, Menulog, Panda. Daftar hari ini, besok bisa langsung dapat orderan.",["Langsung dapat penghasilan"],[["Uber Eats","https://www.ubereats.com/au"],["DoorDash","https://www.doordash.com/en-AU"],["Menulog","https://www.menulog.com.au"]]]
+];
+var F=[["all","Semua"],["o","Online"],["l","Langsung"],["k","Komunitas"],["a","Agensi dan cadangan"]];
+var NM={o:"Online",l:"Langsung",k:"Komunitas",a:"Agensi dan cadangan"};
+var KEY="ausie-checks",st={};
+try{st=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){st={}}
+function lst(id,arr,p){var h="";arr.forEach(function(t,i){var k=p+i;h+='<label class="chk"><input type="checkbox" data-k="'+k+'"'+(st[k]?" checked":"")+'><span>'+t+'</span></label>'});document.getElementById(id).innerHTML=h}
+lst("l1",L1,"a");lst("l2",L2,"b");
+var all=L1.map(function(t,i){return["a"+i,t]}).concat(L2.map(function(t,i){return["b"+i,t]}));
+function upd(){var d=all.filter(function(x){return st[x[0]]}).length,n=all.length,p=Math.round(d/n*100);
+document.getElementById("pct").textContent=p+"%";document.getElementById("cnt").textContent=d+" dari "+n+" langkah selesai";
+document.getElementById("pg").style.strokeDashoffset=276.46*(1-d/n);
+var nx=all.filter(function(x){return!st[x[0]]})[0];
+document.getElementById("next").innerHTML=nx?"<b>Langkah berikutnya</b>"+nx[1]:"<b>Semua beres</b>Kamu siap. Mulai kirim lamaran dan ulangi secara berkala."}
+document.addEventListener("change",function(e){var k=e.target.getAttribute&&e.target.getAttribute("data-k");if(!k)return;st[k]=e.target.checked;try{localStorage.setItem(KEY,JSON.stringify(st))}catch(x){}upd()});
+upd();
+function draw(f){var h="";M.forEach(function(m){if(f!=="all"&&m[0]!==f)return;h+='<article class="card"><span class="tag t-'+m[0]+'">'+NM[m[0]]+'</span><h3>'+m[1]+'</h3><p>'+m[2]+'</p><ul>'+m[3].map(function(x){return"<li>"+x+"</li>"}).join("")+"</ul>"+(m[4]?'<div class="lk">'+m[4].map(function(l){return '<a href="'+l[1]+'" target="_blank" rel="noopener">'+l[0]+'</a>'}).join("")+'</div>':"")+"</article>"});document.getElementById("grid").innerHTML=h}
+var cs=document.getElementById("chips");
+F.forEach(function(f,i){var b=document.createElement("button");b.className="chip";b.textContent=f[1];b.setAttribute("aria-pressed",i===0);b.onclick=function(){[].forEach.call(cs.children,function(c){c.setAttribute("aria-pressed",c===b)});draw(f[0])};cs.appendChild(b)});
+draw("all");
+var gt="e",GT=[["e","Email lamaran"],["d","DM Instagram"],["s","SMS atau telepon"]],gc=document.getElementById("gchips");
+GT.forEach(function(g,i){var b=document.createElement("button");b.className="chip";b.textContent=g[1];b.setAttribute("aria-pressed",i===0);b.onclick=function(){gt=g[0];[].forEach.call(gc.children,function(c){c.setAttribute("aria-pressed",c===b)});gen()};gc.appendChild(b)});
+function gv(id){return document.getElementById(id).value.trim()}
+function gen(){var n=gv("f-name"),p=gv("f-phone"),e=gv("f-email"),c=gv("f-co"),r=gv("f-role")||"Process Worker",m=gv("f-mgr")||"Hiring Manager",x=gv("f-exp"),t,tip;
+if(gt==="e"){t="Subject: "+r+"\n\nHi "+m+",\n\nI’m writing to apply for a "+r+" position at "+(c||"[Company]")+". I’m hard working, a fast learner, and I bring a strong team effort."+(x?" My experience: "+x+".":"")+" I’m ready to give my best and meet the requirements of the role.\n\nI hold a valid Working Holiday visa with full work rights. My CV is attached, and I’m happy to talk by phone or email.\n\nWarm regards,\n"+(n||"[Full name]")+"\n"+(p||"[Phone number]")+"\n"+(e||"[Email]");tip="Lampirkan CV. Subjek singkat seperti ini memudahkanmu mengirim ke banyak perusahaan."}
+else if(gt==="d"){t="Hi! "+(n?"I’m "+n+" and I’m":"I’m")+" interested in any job opportunities at "+(c||"your business")+". Could you please let me know if you’re hiring? Thank you!";tip="Sopan, profesional, langsung ke intinya. Tanyakan juga cara mengirim CV."}
+else{t="Hi, this is "+(n||"[Full name]")+". I’m looking for a "+r+" role and I have a Working Holiday visa with full work rights. Are you currently hiring? I can send my CV right away. Thanks! "+(p||"[Phone number]");tip="Berani, lugas, tidak bertele-tele. Cari tempatnya di Google Maps, lalu langsung telepon atau kirim SMS."}
+document.getElementById("out").textContent=t;document.getElementById("otip").textContent=tip}
+document.addEventListener("input",function(ev){if(ev.target.closest&&ev.target.closest("#gf"))gen()});
+gen();
+var R=[["beranda","Beranda"],["checklist","Checklist"],["cv","CV"],["pesan","Pesan lamaran"],["cara","Cara melamar"],["pelacak","Pelacak lamaran"],["info","Info penting"]];
+function go(){var h=(location.hash||"").slice(1),i=R.map(function(r){return r[0]}).indexOf(h);if(i<0)i=0;
+document.querySelectorAll(".view").forEach(function(v){v.classList.toggle("on",v.getAttribute("data-view")===R[i][0])});
+document.querySelectorAll("nav a").forEach(function(a){if(a.getAttribute("href")==="#"+R[i][0])a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+var s="";if(i>0)s+='<a class="btn g" href="#'+R[i-1][0]+'">Kembali: '+R[i-1][1]+'</a>';if(i>0&&i<R.length-1)s+='<a class="btn p" href="#'+R[i+1][0]+'">Lanjut: '+R[i+1][1]+'</a>';
+document.getElementById("pager").innerHTML=s;window.scrollTo(0,0)}
+window.addEventListener("hashchange",go);go();
+var CT="phys",CE=[["Warehouse helper","Moved, packed and sorted goods"],["Farm worker","Picked fruit and helped with the harvest"],["Kitchen hand","Washed dishes and cleaned the kitchen"],["General labourer","Helped with materials and cleaned work areas"],["Cafe / customer service","Served customers and helped at the cashier"]],CS=["Manual handling","Able to lift 10-25 kg","Comfortable working in cold conditions","Able to stand for long periods","Punctual and reliable"],DL=null;
+document.getElementById("cskills").innerHTML=CS.map(function(s){return '<label class="chk"><input type="checkbox"><span>'+s+'</span></label>'}).join("");
+document.getElementById("c-ex").innerHTML='<option value="">Pilih contoh pengalaman</option>'+CE.map(function(x,i){return '<option value="'+i+'">'+x[0]+'</option>'}).join("");
+var xh="";for(var xi=0;xi<3;xi++)xh+="<div class='box xe' style='padding:16px;margin-bottom:12px'><div class='fgrid'><label class='fld'>Jabatan<input data-f='t' placeholder='Warehouse helper'></label><label class='fld'>Tempat kerja<input data-f='c'></label><label class='fld'>Periode<input data-f='p' placeholder='Jan 2024 - Mar 2024'></label><label class='fld' style='grid-column:1/-1'>Tugas (satu per baris, bahasa Inggris)<textarea data-f='b' rows='3'></textarea></label></div></div>";
+document.getElementById("cexp").innerHTML=xh;
+var ctw=document.getElementById("cvtype");[["phys","Kerja fisik"],["hosp","Hospitality dan umum"]].forEach(function(x,i){var b=document.createElement("button");b.className="chip";b.textContent=x[1];b.setAttribute("aria-pressed",i===0);b.onclick=function(){CT=x[0];[].forEach.call(ctw.children,function(c){c.setAttribute("aria-pressed",c===b)});cvR()};ctw.appendChild(b)});
+function cg(id){return document.getElementById(id).value.trim()}
+function cvD(){var sk=[].map.call(document.querySelectorAll("#cskills input"),function(c,i){return c.checked?CS[i]:null}).filter(Boolean);
+var ex=[].map.call(document.querySelectorAll("#cexp .xe"),function(b){var g=function(f){return b.querySelector("[data-f='"+f+"']").value.trim()};return{t:g("t"),c:g("c"),p:g("p"),b:g("b").split("\n").map(function(s){return s.trim()}).filter(Boolean)}}).filter(function(x){return x.t||x.c||x.b.length});
+var role=cg("c-role")||"[target role]";
+var sum=cg("c-sum")||(CT==="phys"?"Hard working and reliable, a fast learner with a strong team effort. Comfortable with physical, manual handling work. Seeking a "+role+" position and ready to start quickly.":"Hard working and friendly, a fast learner with a strong team effort. Comfortable with customer-facing and fast-paced work. Seeking a "+role+" position and ready to start quickly.");
+return{n:cg("c-name")||"Your Name",ph:cg("c-phone"),em:cg("c-email"),lo:cg("c-loc"),sk:sk,ex:ex,en:document.getElementById("c-en").value,visa:document.getElementById("c-visa").checked,sum:sum}}
+function cvT(d){var L=[d.n,[d.ph,d.em,d.lo].filter(Boolean).join(" | ")];if(d.visa)L.push("Work rights: Working Holiday visa, full work rights");
+L.push("","Summary",d.sum);if(d.sk.length){L.push("","Skills");d.sk.forEach(function(s){L.push("- "+s)})}
+if(d.ex.length){L.push("","Experience");d.ex.forEach(function(x){L.push([x.t,x.c].filter(Boolean).join(", ")+(x.p?" ("+x.p+")":""));x.b.forEach(function(b){L.push("- "+b)})})}
+L.push("","Languages","Indonesian: native","English: "+d.en);return L.join("\n")}
+function cvH(d){var e=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")};
+var h='<div class="nm">'+e(d.n)+'</div><div class="ct">'+e([d.ph,d.em,d.lo].filter(Boolean).join("  |  "))+'</div>';
+if(d.visa)h+='<div class="ct">Work rights: Working Holiday visa, full work rights</div>';
+h+='<h4>Summary</h4><p>'+e(d.sum)+'</p>';
+if(d.sk.length)h+='<h4>Skills</h4><ul>'+d.sk.map(function(s){return"<li>"+e(s)+"</li>"}).join("")+'</ul>';
+if(d.ex.length){h+='<h4>Experience</h4>';d.ex.forEach(function(x){h+='<p><b>'+e([x.t,x.c].filter(Boolean).join(", "))+'</b>'+(x.p?' <span class="ct">('+e(x.p)+')</span>':'')+'</p><ul>'+x.b.map(function(b){return"<li>"+e(b)+"</li>"}).join("")+'</ul>'})}
+h+='<h4>Languages</h4><p>Indonesian: native<br>English: '+e(d.en)+'</p>';return h}
+function cvP(d){var p=new window.jspdf.jsPDF({unit:"mm",format:"a4"}),W=210,M=18,y=M,w=W-2*M;
+function ln(s,sz,st){p.setFont("helvetica",st||"normal");p.setFontSize(sz);p.splitTextToSize(s,w).forEach(function(t){if(y>280){p.addPage();y=M}p.text(t,M,y);y+=sz*0.5})}
+function hd(s){y+=3;ln(s,12,"bold");p.setDrawColor(200);p.line(M,y-3.5,W-M,y-3.5);y+=1}
+ln(d.n,22,"bold");y+=1;ln([d.ph,d.em,d.lo].filter(Boolean).join("  |  "),10);if(d.visa)ln("Work rights: Working Holiday visa, full work rights",10);
+hd("Summary");ln(d.sum,10.5);
+if(d.sk.length){hd("Skills");d.sk.forEach(function(s){ln("- "+s,10.5)})}
+if(d.ex.length){hd("Experience");d.ex.forEach(function(x){ln([x.t,x.c].filter(Boolean).join(", ")+(x.p?"  ("+x.p+")":""),10.5,"bold");x.b.forEach(function(b){ln("- "+b,10.5)});y+=2})}
+hd("Languages");ln("Indonesian: native",10.5);ln("English: "+d.en,10.5);return p.output("arraybuffer")}
+function cvR(){var d=cvD();document.getElementById("cvp").innerHTML=cvH(d);document.getElementById("cvt").textContent=cvT(d)}
+document.addEventListener("input",function(ev){if(ev.target.closest&&ev.target.closest("#cf"))cvR()});
+document.getElementById("c-ex").onchange=function(){var s=this.value;if(s==="")return;var bx=[].filter.call(document.querySelectorAll("#cexp .xe"),function(b){return!b.querySelector("[data-f='t']").value})[0]||document.querySelector("#cexp .xe");bx.querySelector("[data-f='t']").value=CE[s][0];bx.querySelector("[data-f='b']").value=CE[s][1];this.value="";cvR()};
+var dlb=document.getElementById("c-dl");
+try{window.claude.use("downloads").then(function(x){DL=x;if(!x)dlb.hidden=true},function(){dlb.hidden=true})}catch(er){dlb.hidden=true}
+dlb.onclick=function(){var b=this,o=b.textContent;function m(t){b.textContent=t;setTimeout(function(){b.textContent=o},2200)}
+if(!DL)return m("Unduh tidak tersedia");if(!window.jspdf)return m("PDF belum siap, coba lagi");
+var d=cvD();DL.save({filename:"CV-"+(d.n.replace(/[^A-Za-z0-9]+/g,"-")||"CV")+".pdf",data:cvP(d)}).then(function(){m("Tersimpan")},function(x){m(x&&x.code==="declined"?"Dibatalkan":"Gagal menyimpan")})};
+cvR();
+var TK="ausie-track",T=[],ST=["Menunggu","Interview","Diterima","Ditolak"];
+try{T=JSON.parse(localStorage.getItem(TK)||"[]")}catch(er){T=[]}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;")}
+function tsave(){try{localStorage.setItem(TK,JSON.stringify(T))}catch(er){}}
+function trk(){var n=T.length,now=Date.now(),h="";
+document.getElementById("tn").textContent=n;document.getElementById("tb").style.width=Math.min(100,n/20*100)+"%";
+document.getElementById("ts").textContent=ST.map(function(s){return s+": "+T.filter(function(x){return x.s===s}).length}).join("  |  ");
+if(!n)h="<p style='color:var(--muted)'>Belum ada lamaran. Tambahkan yang pertama di atas.</p>";
+for(var i=n-1;i>=0;i--){var x=T[i],age=x.d?Math.floor((now-new Date(x.d).getTime())/864e5):0,fu=x.s==="Menunggu"&&age>=7;
+h+="<div class='trow'><div><b>"+esc(x.c)+"</b>"+(x.r?" - "+esc(x.r):"")+(fu?"<span class='fu'>Waktunya tindak lanjut</span>":"")+"<small>"+esc(x.v)+(x.d?" | "+esc(x.d):"")+(x.n?" | "+esc(x.n):"")+"</small></div><select data-i='"+i+"' aria-label='Status lamaran'>"+ST.map(function(s){return"<option"+(s===x.s?" selected":"")+">"+s+"</option>"}).join("")+"</select><button class='x' data-del='"+i+"'>Hapus</button></div>"}
+document.getElementById("tlist").innerHTML=h}
+document.getElementById("t-add").onclick=function(){var c=gv("t-co");if(!c){document.getElementById("t-co").focus();return}
+T.push({c:c,r:gv("t-role"),v:document.getElementById("t-via").value,d:document.getElementById("t-date").value,n:gv("t-note"),s:"Menunggu"});tsave();["t-co","t-role","t-note"].forEach(function(id){document.getElementById(id).value=""});trk()};
+document.getElementById("tlist").addEventListener("change",function(ev){var i=ev.target.getAttribute("data-i");if(i!==null){T[i].s=ev.target.value;tsave();trk()}});
+document.getElementById("tlist").addEventListener("click",function(ev){var i=ev.target.getAttribute("data-del");if(i!==null){T.splice(+i,1);tsave();trk()}});
+document.getElementById("t-date").value=new Date().toISOString().slice(0,10);trk();
+var FK="ausie-forms";
+function fe(){return[].slice.call(document.querySelectorAll("#gf input,#gf textarea,#gf select,#cf input,#cf textarea,#cf select"))}
+function fsave(){try{localStorage.setItem(FK,JSON.stringify({v:fe().map(function(x){return x.type==="checkbox"?x.checked:x.value}),ct:CT,gt:gt}))}catch(er){}}
+try{var fs=JSON.parse(localStorage.getItem(FK)||"null");if(fs&&fs.v){fe().forEach(function(x,i){if(i>=fs.v.length)return;if(x.type==="checkbox")x.checked=!!fs.v[i];else x.value=fs.v[i]});if(fs.ct)CT=fs.ct;if(fs.gt)gt=fs.gt;
+[].forEach.call(ctw.children,function(c,i){c.setAttribute("aria-pressed",["phys","hosp"][i]===CT)});[].forEach.call(gc.children,function(c,i){c.setAttribute("aria-pressed",["e","d","s"][i]===gt)})}}catch(er){}
+gen();cvR();
+document.addEventListener("input",function(ev){if(ev.target.closest&&ev.target.closest("#gf,#cf"))fsave()});
+document.addEventListener("click",function(ev){if(ev.target.closest&&ev.target.closest(".chip"))setTimeout(fsave,0)});
+document.querySelectorAll("[data-copy]").forEach(function(b){b.onclick=function(){var t=document.getElementById(b.getAttribute("data-copy")).textContent,o=b.textContent;
+function ok(){b.textContent="Tersalin";setTimeout(function(){b.textContent=o},1600)}
+function fb(){var a=document.createElement("textarea");a.value=t;document.body.appendChild(a);a.select();try{document.execCommand("copy");ok()}catch(e){b.textContent="Salin manual"}document.body.removeChild(a)}
+try{navigator.clipboard.writeText(t).then(ok,fb)}catch(e){fb()}}});
+</script>
+</body>
+</html>
