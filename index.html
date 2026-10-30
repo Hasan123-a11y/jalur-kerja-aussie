@@ -243,6 +243,46 @@ html::after{content:"";position:fixed;z-index:-1;inset:0;pointer-events:none;
 background:radial-gradient(rgba(11,36,71,.10) 1px,transparent 1.4px) 0 0/24px 24px;
 -webkit-mask-image:linear-gradient(180deg,#000,transparent 85%);mask-image:linear-gradient(180deg,#000,transparent 85%)}
 @keyframes aurora{from{transform:translate3d(-2%,-1%,0) scale(1)}to{transform:translate3d(2%,2%,0) scale(1.06)}}
+/* ===== Ringkas di HP ===== */
+@media(max-width:620px){
+body{font-size:15px;line-height:1.6}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.bar{padding-top:6px;padding-bottom:2px;gap:0}
+.brand{font-size:1rem;min-height:34px}
+.dot{width:20px;height:20px}
+nav{padding-bottom:4px}
+nav a{padding:6px 11px;font-size:.8rem}
+nav a::before{width:1em;height:1em;margin-right:4px}
+.view{padding-top:22px}
+section{padding-top:44px}
+.view[data-view=beranda]{padding-top:12px}
+h2{font-size:1.45rem}
+.lead{font-size:.9rem;margin-top:8px}
+.view>h2:first-child::before{width:38px;height:38px;border-radius:12px;margin-bottom:12px;background-size:19px 19px,auto}
+.hero{padding:22px 18px 54px;gap:16px;border-radius:22px}
+.hero h1{font-size:1.6rem;line-height:1.15;letter-spacing:-.02em}
+.hero .lead{font-size:.88rem;line-height:1.55;margin-top:10px}
+.cta{margin-top:16px;gap:8px}
+.hero .btn{padding:9px 16px;font-size:.84rem;min-height:40px}
+.hero::before{width:120px;height:120px;right:-36px;top:-46px;opacity:.5;box-shadow:0 0 36px 12px rgba(255,200,61,.25)}
+.hero::after{height:38px;--w:400px;background-size:400px 38px,400px 38px}
+.hero>.plane{display:none}
+.meter{padding:14px 16px;border-radius:18px;box-shadow:0 12px 30px rgba(3,15,40,.3)}
+.ring{gap:14px}
+.ring svg{width:68px;height:68px}
+.ring circle{stroke-width:12}
+.pct{font-size:1.6rem}
+.ring>div{font-size:.82rem;line-height:1.4}
+.next{margin-top:10px;padding:9px 12px;font-size:.8rem;line-height:1.45;border-radius:12px}
+.view[data-view=beranda]>h2{margin-top:30px!important}
+.menu{gap:8px;margin-top:12px}
+.step{padding:13px 14px;border-radius:16px;gap:2px}
+.step .n{width:24px;height:24px;font-size:.78rem}
+.step b{font-size:.95rem}
+.step span{font-size:.8rem;line-height:1.45}
+.step::after{width:34px;height:34px;top:11px;right:12px;border-radius:11px;background-size:18px 18px,auto}
+footer{margin-top:56px;padding:28px 0 calc(32px + env(safe-area-inset-bottom,0px));font-size:.8rem}
+}
 </style>
 </head>
 <body>
